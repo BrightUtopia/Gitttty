@@ -13,8 +13,8 @@ end
 
 c=sum(sum(xP))/(volfrac*nelx*nelx);
 xPhys=xP./c;
-% figure
-% colormap(gray); imagesc(1-xPhys); caxis([0 1]); axis equal; drawnow;
-% xlim([0.5,nelx+0.5]);xticks([]);yticks([]);
+figure
+colormap(gray); imagesc(1-xPhys); caxis([0 1]); axis equal; drawnow;
+xlim([0.5,nelx+0.5]);xticks([]);yticks([]);
 
 end
